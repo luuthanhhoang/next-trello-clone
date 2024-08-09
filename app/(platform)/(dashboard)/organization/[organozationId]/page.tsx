@@ -6,7 +6,7 @@ type Props = {};
 
 const OrganizationIdPage = (props: Props) => {
   const { userId, orgId } = auth();
-  return <OrganizationSwitcher hidePersonal />;
+  return <div>Organization detail</div>;
 };
 
 export default OrganizationIdPage;
